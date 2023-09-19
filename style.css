@@ -1135,7 +1135,46 @@ body{
         margin: 3rem;
         /* height: auto; */
     }
+}
 
+@media only screen and (max-width: 499px){
+    .trial-text h1{
+        width: 100%;
+    }
 
+    .clnt-bg-img{
+        height: 50rem;
+    }
 
+    .app-page-card{
+        display: block;
+        text-align: center;
+        height: auto;
+    }
+
+    .app-card-info{
+        text-align: center;
+        margin: auto;
+    }
+
+    .app-card-info p{
+        margin-bottom: 20px;
+    }
+
+    .tstmnl-cards{
+        display: block;
+        text-align: center;
+    }
+
+    .tstmnl-people{
+        max-width: 90%;
+    }
+
+    .tech-pg img{
+        margin: auto;
+    }
+
+    .update-bg{
+        height: 40rem;
+    }
 }
